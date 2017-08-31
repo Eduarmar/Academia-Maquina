@@ -11,6 +11,10 @@ p{
   font-family: Roboto;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .navbar-default{
   background: #fff
   border:0;
@@ -48,4 +52,9 @@ p{
 #autor img{
   width: 150px;
   height: 150px;
+}
+
+footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
