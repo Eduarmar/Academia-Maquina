@@ -17,6 +17,11 @@ p{
 
 }
 
+.fixed {
+        position: fixed;
+        width: 25%;
+}
+
 /*Header*/
 
 #descripcion .container, #ventajas .container, #autor .container{
