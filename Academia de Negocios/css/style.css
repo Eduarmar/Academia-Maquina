@@ -17,10 +17,15 @@ p{
   font-family: Poppins;
 }
 
+#navbar > ul {
+  padding-top: 5px;
+}
+
 .navbar-brand{
   font-size: 20px;
   color: #000 !important;
   font-weight: bold;
+  margin-bottom: 7px;
 }
 
 .bg{
@@ -33,6 +38,11 @@ p{
   margin-top: 90px;
   width: 550px;
   height: 200px;
+}
+
+.logo{
+  width: 100px;
+  height: 30px;
 }
 
 #autor img{
