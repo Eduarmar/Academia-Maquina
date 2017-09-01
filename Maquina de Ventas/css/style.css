@@ -12,8 +12,9 @@ p{
   font-family: Roboto;
 }
 
+
 .espacio {
-  padding-right: 300px;
+  padding-right: 18%;
 
 }
 
@@ -24,15 +25,145 @@ p{
 
 /*Header*/
 
-#descripcion .container, #ventajas .container, #autor .container, #contactamos .container{
+#descripcion .container, #ventajas .container, #autor .container{
   background-color: white;
-  width: 60%;
+  width: 90%;
   padding: 50px;
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
 }
 
+#panel .container{
+  background-color: white;
+  width: 120%;
+  padding: 20px;
+  box-shadow: 2px 5px 5px grey;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: grey;
+
+}
+
+@media screen and (max-width: 1700px){
+
+  .espacio {
+    padding-right: 10%;
+    margin-left: -8%;
+
+  }
+
+
+}
+
+@media (max-width: 1430px){
+
+  #panel .container{
+    margin-left: -10%;
+  }
+
+  .espacio {
+    padding-right: 6%;
+    margin-left: -12%;
+
+  }
+
+
+}
+
+@media (max-width: 1280px){
+
+  #panel .container{
+    margin-left: -15%;
+  }
+
+  .espacio {
+    padding-right: 2%;
+    margin-left: -18%;
+
+  }
+
+
+}
+
+
+@media (max-width: 1200px){
+
+  #panel .container{
+    margin-left: -15%;
+  }
+
+  .espacio {
+    padding-right: 2%;
+    margin-left: -23%;
+
+  }
+
+
+}
+
+@media (max-width: 1080px){
+
+
+  .espacio {
+    padding-right: 2%;
+    margin-left: -23%;
+
+  }
+
+
+}
+
+
+@media (max-width: 992px){
+
+  #panel .container{
+    margin-left: 40%;
+  }
+
+  .espacio {
+    padding-right: 0%;
+    margin-left: 0%;
+
+  }
+
+  @media (max-width: 768px){
+
+    #panel .container{
+      margin-left: 30%;
+    }
+
+}
+
+
+@media (max-width: 620px){
+
+  #descripcion .container, #ventajas .container, #autor .container{
+
+    width: 100%;
+    padding: 20px;
+  }
+
+  #panel .container{
+    width: 160%;
+    margin-left: 10%;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 450px){
+
+  #panel .container{
+    width: 180%;
+    margin-left: 0%;
+
+  }
+
+}
+
+
+}
 
 
 .header {
@@ -78,9 +209,8 @@ p{
   font-size: 20px;
   color: #000 !important;
   font-weight: bold;
+  margin-bottom: 5px;
 }
-
-
 
 a{
   color: white;
@@ -106,32 +236,26 @@ a:hover{
   height: 150px;
 }
 
-#ventajas .img-responsive{
-  width: 600px;
-  height: 800px;
-}
-
 .logo {
   width: 100px;
-  height: 50px;
+  height: 30px;
 }
 
-footer{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
+
+
+
+
+
+
+
+
 
 <style type="text/css">#af-form-1416930558 .af-body .af-textWrap {
   width: 98%;
   display: block;
   float: none;
 }
-
-#af-body-1416930558 > div.af-element.buttonContainer{
-  padding-top: 15px;
-  padding-left: 30px;
-}
-
 
 #af-form-1416930558 .af-body .privacyPolicy {
   color: #CCCCCC;
@@ -209,28 +333,185 @@ footer{
   font-family: Verdana, sans-serif;
 }
 
-#awf_field-92653564{
-  width: 200px;
-}
-
-#awf_field-92653565{
-  width: 200px;
-}
-
 #af-form-1416930558 .af-quirksMode .bodyText {
   padding-top: 2px;
   padding-bottom: 2px;
 }
 
-/*#af-form-1416930558 .af-quirksMode {
+#af-form-1416930558 .af-quirksMode {
   padding-right: 60px;
   padding-left: 60px;
-}*/
+}
 
-/*#af-form-1416930558 .af-standards .af-element {
+#af-form-1416930558 .af-standards .af-element {
   padding-right: 60px;
   padding-left: 60px;
-}*/
+}
 
 #af-form-1416930558 .bodyText p {
   margin: 1em 0;
+}
+
+#af-form-1416930558 .buttonContainer input.submit {
+  background-color: #0479C2;
+  background-image: url("https://hostedimages-cdn.aweber-static.com/MTAzODE3MA==/original/874a9b80befe42f99182ac25544aa89b.png");
+  color: #FFFFFF;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: Helvetica, sans-serif;
+}
+
+#af-form-1416930558 .buttonContainer input.submit {
+  width: auto;
+}
+
+#af-form-1416930558 .buttonContainer {
+  text-align: center;
+}
+
+#af-form-1416930558 body, #af-form-1416930558 dl, #af-form-1416930558 dt, #af-form-1416930558 dd, #af-form-1416930558 h1, #af-form-1416930558 h2, #af-form-1416930558 h3, #af-form-1416930558 h4, #af-form-1416930558 h5, #af-form-1416930558 h6, #af-form-1416930558 pre, #af-form-1416930558 code, #af-form-1416930558 fieldset, #af-form-1416930558 legend, #af-form-1416930558 blockquote, #af-form-1416930558 th, #af-form-1416930558 td {
+  float: none;
+  color: inherit;
+  position: static;
+  margin: 0;
+  padding: 0;
+}
+
+#af-form-1416930558 button, #af-form-1416930558 input, #af-form-1416930558 submit, #af-form-1416930558 textarea, #af-form-1416930558 select, #af-form-1416930558 label, #af-form-1416930558 optgroup, #af-form-1416930558 option {
+  float: none;
+  position: static;
+  margin: 0;
+}
+
+#af-form-1416930558 div {
+  margin: 0;
+}
+
+#af-form-1416930558 fieldset {
+  border: 0;
+}
+
+#af-form-1416930558 form, #af-form-1416930558 textarea, .af-form-wrapper, .af-form-close-button, #af-form-1416930558 img {
+  float: none;
+  color: inherit;
+  position: static;
+  background-color: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+#af-form-1416930558 input, #af-form-1416930558 button, #af-form-1416930558 textarea, #af-form-1416930558 select {
+  font-size: 100%;
+}
+
+#af-form-1416930558 p {
+  color: inherit;
+}
+
+#af-form-1416930558 select, #af-form-1416930558 label, #af-form-1416930558 optgroup, #af-form-1416930558 option {
+  padding: 0;
+}
+
+#af-form-1416930558 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#af-form-1416930558 ul, #af-form-1416930558 ol {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+#af-form-1416930558, #af-form-1416930558 .quirksMode {
+  width: 100%;
+  max-width: 481px;
+}
+
+#af-form-1416930558.af-quirksMode {
+  overflow-x: hidden;
+}
+
+#af-form-1416930558 {
+  background-color: #F5F5F5;
+  border-color: #CFCFCF;
+  border-width: 1px;
+  border-style: none;
+}
+
+#af-form-1416930558 {
+  display: block;
+}
+
+#af-form-1416930558 {
+  overflow: hidden;
+}
+
+.af-body .af-textWrap {
+  text-align: left;
+}
+
+.af-body input.image {
+  border: none!important;
+}
+
+.af-body input.submit, .af-body input.image, .af-form .af-element input.button {
+  float: none!important;
+}
+
+.af-body input.text {
+  width: 100%;
+  float: none;
+  padding: 2px!important;
+}
+
+.af-body.af-standards input.submit {
+  padding: 4px 12px;
+}
+
+.af-clear {
+  clear: both;
+}
+
+.af-element label {
+  text-align: left;
+  display: block;
+  float: left;
+}
+
+.af-element {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.af-form-wrapper {
+  text-indent: 0;
+}
+
+.af-form {
+  text-align: left;
+  margin: auto;
+}
+
+.af-header {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px;
+}
+
+.af-quirksMode .af-element {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.lbl-right .af-element label {
+  text-align: right;
+}
+
+body {}
+
+</style>
