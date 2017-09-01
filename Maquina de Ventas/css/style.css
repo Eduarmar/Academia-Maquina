@@ -1,0 +1,118 @@
+body{
+  margin-top: 50px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Poppins;
+}
+
+p{
+  font-family: Roboto;
+}
+
+.espacio {
+  padding-right: 300px;
+
+}
+
+.fixed {
+        position: fixed;
+        width: 25%;
+}
+
+/*Header*/
+
+#descripcion .container, #ventajas .container, #autor .container{
+  background-color: white;
+  width: 800px;
+  padding: 50px;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.header {
+  background-image: url(../img/header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header .row{
+  padding-top: 80px;
+}
+
+.header h1{
+  color: white;
+  font-size: 80px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+
+@media(max-width:768px) {
+.header h1{
+  font-size: 50px;
+}
+
+}
+
+
+.aca {
+  padding-top: 30px;
+}
+
+
+.navbar-default{
+  background: #fff
+  border:0;
+  font-family: Poppins;
+}
+
+.navbar-brand{
+  font-size: 20px;
+  color: #000 !important;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#navbar > ul{
+  padding-top: 15px;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+.bg{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f1f1f1;
+}
+
+#descripcion .img-responsive{
+  margin-top: 90px;
+  width: 550px;
+  height: 200px;
+}
+
+#autor img{
+  width: 150px;
+  height: 150px;
+}
+
+#ventajas img{
+  width: 600px;
+  height: 800px;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
