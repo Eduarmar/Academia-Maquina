@@ -1,0 +1,86 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+    background-color: #f1f1f1;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Poppins;
+}
+
+p{
+  font-family: Roboto;
+}
+
+
+.header {
+  background-image: url(../img/header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.header .row{
+  padding-top: 80px;
+}
+
+.header h1{
+  color: white;
+  font-size: 80px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 100px;
+  height: 50px;
+}
+
+.navbar-default{
+  background: #fff
+  border:0;
+  font-family: Poppins;
+}
+
+.navbar-brand{
+  font-size: 20px;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+
+
+#autor img{
+  width: 150px;
+  height: 150px;
+}
+
+@media(max-width:768px) {
+.header h1{
+  font-size: 50px;
+}
