@@ -29,9 +29,14 @@ p{
   background-color: white;
   width: 90%;
   padding: 50px;
+  box-shadow: 2px 5px 5px grey;
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
+}
+
+#autor .container{
+  margin-bottom: 30px;
 }
 
 #panel .container{
@@ -42,6 +47,7 @@ p{
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
+  margin-bottom: 30px;
 
 }
 
@@ -167,10 +173,11 @@ p{
 
 
 .header {
-  background-image: url(../img/header.png);
+  background-color: white;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 2px 5px 5px grey;
 
 }
 
@@ -179,7 +186,7 @@ p{
 }
 
 .header h1{
-  color: white;
+  color: black;
   font-size: 80px;
   padding-top: 50px;
   padding-bottom: 100px;
