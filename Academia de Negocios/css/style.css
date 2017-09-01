@@ -13,7 +13,7 @@ p{
 }
 
 .espacio {
-  padding-right: 300px;
+  padding-right: 250px;
 
 }
 
@@ -31,6 +31,17 @@ p{
   border-bottom: solid;
   border-width: 1px;
   border-color: grey;
+}
+
+#panel .container{
+  background-color: white;
+  width: 450px;
+  padding: 20px;
+  box-shadow: 2px 5px 5px grey;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: grey;
+
 }
 
 .header {
